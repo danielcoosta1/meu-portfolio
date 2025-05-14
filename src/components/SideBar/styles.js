@@ -1,8 +1,11 @@
-// src/components/Sidebar/styles.js
 import styled from "styled-components";
 
 export const SidebarContainer = styled.aside`
-  width: 550px;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-700px); // - metade do max-width do layout (1400px / 2)
+  width: 350px;
   height: 100vh;
   padding: 3rem;
   background-color: #0a192f;
@@ -11,19 +14,21 @@ export const SidebarContainer = styled.aside`
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
+  z-index: 10;
 `;
+
 
 
 export const Name = styled.h1`
   font-size: 4.5rem;
   font-weight: bold;
-  color: white; /* Texto branco */
+  color: white;
   margin-bottom: 0.5rem;
 `;
 
 export const Subtitle = styled.p`
   font-size: 1.75rem;
-  color: #8892b0; /* Cinza claro */
+  color: #8892b0;
 `;
 
 export const NavList = styled.nav`
@@ -35,12 +40,12 @@ export const NavList = styled.nav`
 
 export const NavItem = styled.a`
   font-size: 0.9rem;
-  color: #8892b0; /* Links em cinza claro */
+  color: #8892b0;
   text-decoration: none;
   transition: color 0.2s;
 
   &:hover {
-    color: #64ffda; /* Cor de destaque no hover */
+    color: #64ffda;
   }
 `;
 
@@ -51,10 +56,10 @@ export const SocialLinksContainer = styled.div`
 `;
 
 export const SocialLink = styled.a`
-  color: #8892b0; /* Ícones das redes sociais em cinza claro */
+  color: #8892b0;
   transition: color 0.2s;
 
   &:hover {
-    color: #64ffda; /* Cor de destaque no hover */
+    color: #64ffda;
   }
 `;

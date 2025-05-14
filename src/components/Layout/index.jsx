@@ -1,12 +1,16 @@
-
+// src/components/Layout/index.jsx
 import Sidebar from "../SideBar";
-import { Container, Content } from "./style.js";
+
+import {Container, ContentWrapper, Content} from "./style"
+
 
 const Layout = ({ children }) => {
   return (
     <Container>
-     <Sidebar/>
-      <Content>{children}</Content>
+      <Sidebar />
+      <ContentWrapper>
+        <Content>{children}</Content>
+      </ContentWrapper>
     </Container>
   );
 };

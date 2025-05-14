@@ -1,27 +1,28 @@
-// src/styles/global.js
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
-    height: 100%;
-    overflow: hidden;  /* Impede que o scroll afete o body */
     font-family: 'Inter', sans-serif;
-    display: flex;
-    justify-content: center; /* Centraliza o layout na tela */
+    background-color: #0a192f;
+    color: #fff;
   }
-  
+
   * {
     box-sizing: border-box;
   }
 
   body {
-    background-color: #0a192f;
-    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
     width: 100%;
+    min-height: 100vh;
+    overflow-y: auto; /* Permite scroll global */
   }
-  
+
   a {
     text-decoration: none;
     color: inherit;
