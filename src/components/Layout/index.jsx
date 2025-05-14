@@ -1,14 +1,11 @@
-import React from 'react';
-import { Container, Content } from './styles';
-import Sidebar from '../Sidebar';
+import SideBar from "../SideBar";
+import { Container, Content } from "./style.js";
 
 const Layout = ({ children }) => {
   return (
     <Container>
-      <Sidebar />
-      <Content>
-        {children}
-      </Content>
+      <SideBar />
+      <Content>{children}</Content>
     </Container>
   );
 };
