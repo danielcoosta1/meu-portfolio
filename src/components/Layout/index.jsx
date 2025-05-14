@@ -1,10 +1,11 @@
-import SideBar from "../SideBar";
+
+import Sidebar from "../SideBar";
 import { Container, Content } from "./style.js";
 
 const Layout = ({ children }) => {
   return (
     <Container>
-      <SideBar />
+     <Sidebar/>
       <Content>{children}</Content>
     </Container>
   );
