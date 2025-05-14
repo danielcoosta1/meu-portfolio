@@ -7,23 +7,30 @@ export const Container = styled.div`
   max-width: 1400px;
   margin: 0 auto;
   padding: 2rem;
-  padding-left: 370px; // ⬅️ 350px do sidebar + um pequeno respiro
+  padding-left: 370px; // Sidebar (350px) + respiro
   box-sizing: border-box;
   position: relative;
   gap: 2rem;
+
+  @media (max-width: 1400px) {
+    flex-direction: column;
+    gap: 0;
+    padding: 0; // ✅ remove completamente qualquer padding no mobile
+   height: 100dvh;
+  }
 `;
 
 export const ContentWrapper = styled.div`
-  flex: 1; /* O conteúdo vai ocupar o restante do espaço */
+  flex: 1;
   display: flex;
-  justify-content: center; /* Centraliza o conteúdo à direita */
-  padding: 2rem;
-  /* Adiciona scroll no conteúdo */
+  justify-content: center;
 `;
 
 export const Content = styled.main`
   width: 100%;
-  max-width: 1200px; /* Limita a largura do conteúdo */
+  max-width: 1200px;
   padding: 2rem;
   box-sizing: border-box;
+
+ 
 `;

@@ -12,12 +12,19 @@ export const SidebarContainer = styled.aside`
   color: #ccd6f6;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   box-sizing: border-box;
   z-index: 10;
+
+  @media (max-width: 1400px) {
+    width: 100%;
+    position: relative;
+    left: 0;
+
+    transform: none;
+    padding: 2rem; // ✅ uniformemente (2rem top/right/bottom/left)
+    gap: 1rem;
+  }
 `;
-
-
 
 export const Name = styled.h1`
   font-size: 4.5rem;
@@ -36,6 +43,9 @@ export const NavList = styled.nav`
   flex-direction: column;
   gap: 1rem;
   margin-top: 3rem;
+  @media (max-width: 1400px) {
+    display: none;
+  }
 `;
 
 export const NavItem = styled.a`
@@ -52,7 +62,12 @@ export const NavItem = styled.a`
 export const SocialLinksContainer = styled.div`
   display: flex;
   gap: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+  margin-top: auto;
+  @media (max-width: 1400px) {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
 `;
 
 export const SocialLink = styled.a`
