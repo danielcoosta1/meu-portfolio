@@ -18,29 +18,29 @@ function Sidebar() {
         <Subtitle>Desenvolvedor Front-End</Subtitle>
 
         <NavList>
-          <NavItem href="#sobre">01. Sobre</NavItem>
-          <NavItem href="#experiencia">02. Experiência</NavItem>
-          <NavItem href="#projetos">03. Projetos</NavItem>
+          <NavItem href="#sobre">Sobre</NavItem>
+          <NavItem href="#experiencia">Experiência</NavItem>
+          <NavItem href="#projetos">Projetos</NavItem>
         </NavList>
       </div>
 
       <SocialLinksContainer>
         <SocialLink
-          href="https://github.com/seuusuario"
+          href="https://github.com/danielcoosta1"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaGithub size={30} />
         </SocialLink>
         <SocialLink
-          href="https://linkedin.com/in/seuusuario"
+          href="https://www.linkedin.com/in/daniel-correia-costa/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaLinkedin size={30} />
         </SocialLink>
         <SocialLink
-          href="https://instagram.com/seuusuario"
+          href="https://instagram.com/dcc.daniel"
           target="_blank"
           rel="noopener noreferrer"
         >
