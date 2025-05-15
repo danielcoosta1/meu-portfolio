@@ -68,22 +68,4 @@ export const NavItemContent = styled(motion.span)`
   color: #8892b0;
 `;
 
-export const SocialLinksContainer = styled.div`
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 2rem;
-  margin-top: auto;
 
-  @media (max-width: 1400px) {
-    margin-bottom: 0;
-    margin-top: 0;
-  }
-`;
-
-export const SocialLink = styled(motion.a)`
-  color: #8892b0;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-`;
