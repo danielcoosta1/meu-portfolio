@@ -6,10 +6,8 @@ import {
   NavItem,
   NavItemContent,
   NavItemLine,
-  SocialLinksContainer,
-  SocialLink,
 } from "./styles";
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+
 import { useEffect, useState } from "react";
 
 function Sidebar() {
@@ -106,8 +104,6 @@ function Sidebar() {
           })}
         </NavList>
       </div>
-
- 
     </SidebarContainer>
   );
 }
