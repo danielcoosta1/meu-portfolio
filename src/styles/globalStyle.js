@@ -5,7 +5,7 @@ export const GlobalStyle = createGlobalStyle`
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: "Montserrat", sans-serif;
     background-color: #0a192f;
     color: #fff;
   }
