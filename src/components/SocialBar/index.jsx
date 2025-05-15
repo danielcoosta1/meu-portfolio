@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
-import { Container, SocialLink,  LineH, LineV } from "./style";
+import { Container, SocialLink, LineH, LineV } from "./style";
 
 function SocialBar() {
   return (
@@ -52,8 +52,8 @@ function SocialBar() {
         <FaInstagram className="icon" />
       </SocialLink>
 
-      <LineH />
-      <LineV />
+      <LineH className="line-vertical" />
+      <LineV className="line-horizontal" />
     </Container>
   );
 }
