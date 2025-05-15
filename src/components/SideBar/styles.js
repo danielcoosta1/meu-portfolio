@@ -66,7 +66,6 @@ export const NavItemLine = styled(motion.div)`
 export const NavItemContent = styled(motion.span)`
   font-size: 0.9rem;
   color: #8892b0;
-  
 `;
 
 export const SocialLinksContainer = styled.div`
@@ -81,11 +80,10 @@ export const SocialLinksContainer = styled.div`
   }
 `;
 
-export const SocialLink = styled.a`
+export const SocialLink = styled(motion.a)`
   color: #8892b0;
-  transition: color 0.2s;
-
-  &:hover {
-    color: #64ffda;
-  }
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 `;
