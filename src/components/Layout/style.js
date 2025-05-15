@@ -7,7 +7,7 @@ export const Container = styled.div`
   max-width: 1400px;
   margin: 0 auto;
   padding: 2rem;
-  padding-left: 370px; // Sidebar (350px) + respiro
+  padding-left: 550px; // Sidebar (350px) + respiro
   box-sizing: border-box;
   position: relative;
   gap: 2rem;
@@ -16,7 +16,7 @@ export const Container = styled.div`
     flex-direction: column;
     gap: 0;
     padding: 0; // ✅ remove completamente qualquer padding no mobile
-   height: 100dvh;
+    height: 100dvh;
   }
 `;
 
