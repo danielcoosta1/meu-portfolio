@@ -1,10 +1,11 @@
-// src/components/Sidebar/index.jsx
 import {
   SidebarContainer,
   Name,
   Subtitle,
   NavList,
   NavItem,
+  NavItemContent,
+  NavItemLine,
   SocialLinksContainer,
   SocialLink,
 } from "./styles";
@@ -18,9 +19,37 @@ function Sidebar() {
         <Subtitle>Desenvolvedor Front-End</Subtitle>
 
         <NavList>
-          <NavItem href="#sobre">Sobre</NavItem>
-          <NavItem href="#experiencia">Experiência</NavItem>
-          <NavItem href="#projetos">Projetos</NavItem>
+          {[
+            { label: "Sobre", href: "#sobre" },
+            { label: "Experiência", href: "#experiencia" },
+            { label: "Projetos", href: "#projetos" },
+          ].map((item) => (
+            <NavItem
+              key={item.href}
+              href={item.href}
+              whileHover="hover"
+              initial="rest"
+              animate="rest"
+              variants={{}} // necessário para framer
+            >
+              <NavItemLine
+                variants={{
+                  rest: { width: 10 },
+                  hover: { width: 20 },
+                }}
+                transition={{ type: "spring", stiffness: 300 }}
+              />
+              <NavItemContent
+                variants={{
+                  rest: { scale: 1, color: "#8892b0" },
+                  hover: { scale: 1.05, color: "#64ffda" },
+                }}
+                transition={{ type: "spring", stiffness: 300 }}
+              >
+                {item.label}
+              </NavItemContent>
+            </NavItem>
+          ))}
         </NavList>
       </div>
 
