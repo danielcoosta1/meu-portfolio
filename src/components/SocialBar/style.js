@@ -16,7 +16,7 @@ export const Container = styled.div`
     left: 0;
     flex-direction: row;
     padding-left: 2rem;
-   
+
     width: 100%;
     margin-top: 2rem;
   }
@@ -28,15 +28,39 @@ export const SocialLink = styled(motion.a)`
   align-items: center;
   justify-content: center;
   transition: color 0.2s;
+
+  .icon {
+    font-size: 35px;
+
+    @media (max-width: 1200px) {
+      font-size: 26px;
+    }
+
+    @media (max-width: 768px) {
+      font-size: 22px;
+    }
+  }
 `;
 
-export const Line = styled.div`
+export const LineH = styled.div`
   width: 1px;
   height: 80px;
   background-color: #8892b0;
   margin-top: 1rem;
 
-  @media (max-width:1200px) {
+  @media (max-width: 1200px) {
     display: none;
+  }
+`;
+
+export const LineV = styled.div`
+  width: 80px;
+  height: 1px;
+  background-color: #8892b0;
+  margin-left: 1rem;
+  display: none;
+
+  @media (max-width: 1200px) {
+    display: inline-block;
   }
 `;

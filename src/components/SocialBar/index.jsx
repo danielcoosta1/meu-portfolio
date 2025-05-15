@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
-import { Container, SocialLink, Line } from "./style";
+import { Container, SocialLink,  LineH, LineV } from "./style";
 
 function SocialBar() {
   return (
@@ -17,7 +17,7 @@ function SocialBar() {
         }}
         transition={{ type: "spring", stiffness: 300 }}
       >
-        <FaGithub size={35} />
+        <FaGithub className="icon" />
       </SocialLink>
 
       <SocialLink
@@ -33,7 +33,7 @@ function SocialBar() {
         }}
         transition={{ type: "spring", stiffness: 300 }}
       >
-        <FaLinkedin size={35} />
+        <FaLinkedin className="icon" />
       </SocialLink>
 
       <SocialLink
@@ -49,10 +49,11 @@ function SocialBar() {
         }}
         transition={{ type: "spring", stiffness: 300 }}
       >
-        <FaInstagram size={35} />
+        <FaInstagram className="icon" />
       </SocialLink>
 
-      <Line />
+      <LineH />
+      <LineV />
     </Container>
   );
 }
