@@ -7,7 +7,7 @@ export const Container = styled.div`
   max-width: 1400px;
   margin: 0 auto;
   padding: 2rem;
-  padding-left: 550px; // Sidebar (350px) + respiro
+  padding-left: 480px; // Sidebar (350px) + respiro
   box-sizing: border-box;
   position: relative;
   gap: 2rem;
@@ -29,12 +29,12 @@ export const ContentWrapper = styled.div`
 export const Content = styled.main`
   width: 100%;
   max-width: 1200px;
-  padding: 1.25rem;
+  padding: 2rem 0;
   box-sizing: border-box;
 
 
   @media (max-width: 1200px){
-    padding:0;
+    padding:2rem;
   }
 
 
