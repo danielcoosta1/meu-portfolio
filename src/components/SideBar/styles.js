@@ -31,11 +31,17 @@ export const Name = styled.h1`
   font-weight: bold;
   color: white;
   margin-bottom: 0.5rem;
+  @media (max-width: 768px) {
+     font-size: 2.5rem;
+  }
 `;
 
 export const Subtitle = styled.p`
   font-size: 1.25rem;
   color: #8892b0;
+   @media (max-width: 768px) {
+     font-size: 1rem;
+  }
 `;
 
 export const NavList = styled.nav`
@@ -67,5 +73,3 @@ export const NavItemContent = styled(motion.span)`
   font-size: 0.9rem;
   color: #8892b0;
 `;
-
-
