@@ -32,5 +32,10 @@ export const Content = styled.main`
   padding: 1.25rem;
   box-sizing: border-box;
 
- 
+
+  @media (max-width: 1200px){
+    padding:0;
+  }
+
+
 `;
