@@ -6,6 +6,7 @@ import {
   NavItem,
   NavItemContent,
   NavItemLine,
+  SubtitleDestaque,
 } from "./styles";
 
 import { useEffect, useState } from "react";
@@ -46,8 +47,8 @@ function Sidebar() {
     <SidebarContainer>
       <div>
         <Name>Daniel Costa</Name>
-        <Subtitle>Desenvolvedor Front-End</Subtitle>
-
+        <SubtitleDestaque>Desenvolvedor Front-End</SubtitleDestaque>
+        <Subtitle>Focado em experiências web intuitivas e responsivas.</Subtitle>
         <NavList>
           {navItems.map((item, index) => {
             const isActive = activeSection === item.href.slice(1);
