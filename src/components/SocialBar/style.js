@@ -16,8 +16,9 @@ export const Container = styled.div`
     left: 0;
     flex-direction: row;
     padding-left: 2rem;
-    background-color: #0a192f; // opcional
+   
     width: 100%;
+    margin-top: 2rem;
   }
 `;
 
