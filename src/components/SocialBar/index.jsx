@@ -17,7 +17,7 @@ function SocialBar() {
         }}
         transition={{ type: "spring", stiffness: 300 }}
       >
-        <FaGithub size={24} />
+        <FaGithub size={35} />
       </SocialLink>
 
       <SocialLink
@@ -33,7 +33,7 @@ function SocialBar() {
         }}
         transition={{ type: "spring", stiffness: 300 }}
       >
-        <FaLinkedin size={24} />
+        <FaLinkedin size={35} />
       </SocialLink>
 
       <SocialLink
@@ -49,7 +49,7 @@ function SocialBar() {
         }}
         transition={{ type: "spring", stiffness: 300 }}
       >
-        <FaInstagram size={24} />
+        <FaInstagram size={35} />
       </SocialLink>
 
       <Line />
