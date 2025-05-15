@@ -59,13 +59,12 @@ export const NavList = styled.nav`
   }
 `;
 
-export const NavItem = styled(motion.a)`
+export const NavItem = styled(motion.button)`
+  all: unset; // remove estilos padrão de botão
+  cursor: pointer;
   display: flex;
   align-items: center;
-  text-decoration: none;
-  color: inherit;
   gap: 1rem;
-  cursor: pointer;
 `;
 
 export const NavItemLine = styled(motion.div)`
