@@ -38,7 +38,7 @@ function Sidebar() {
     sections.forEach((section) => observer.observe(section));
 
     return () => {
-      sections.forEach((section) => observer.unobserve(section));
+      sections.forEach((section) => observer.unobserve(section)); // Quando o componente for desmontado, ele para de observar para evitar vazamento de memória
     };
   }, []);
 
