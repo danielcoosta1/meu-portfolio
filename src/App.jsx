@@ -1,11 +1,14 @@
-import Teste from "./components/ComponenteTeste/Teste";
 import Layout from "./components/Layout";
-
+import Sobre from "./sections/Sobre";
+import Experiencia from "./sections/Experiencia";
+import Projetos from "./sections/Projetos";
 
 function App() {
   return (
     <Layout>
-      <Teste/>
+      <Sobre />
+      <Experiencia />
+      <Projetos />
     </Layout>
   );
 }

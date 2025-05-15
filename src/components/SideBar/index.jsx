@@ -12,6 +12,11 @@ import {
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 function Sidebar() {
+  const navItems = [
+    { label: "Sobre", href: "#sobre" },
+    { label: "Experiência", href: "#experiencia" },
+    { label: "Projetos", href: "#projetos" },
+  ];
   return (
     <SidebarContainer>
       <div>
@@ -19,32 +24,33 @@ function Sidebar() {
         <Subtitle>Desenvolvedor Front-End</Subtitle>
 
         <NavList>
-          {[
-            { label: "Sobre", href: "#sobre" },
-            { label: "Experiência", href: "#experiencia" },
-            { label: "Projetos", href: "#projetos" },
-          ].map((item) => (
+          {navItems.map((item, index) => (
             <NavItem
               key={item.href}
               href={item.href}
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{
+                delay: index * 0.1,
+                duration: 0.4,
+                ease: "easeOut",
+              }}
               whileHover="hover"
-              initial="rest"
-              animate="rest"
-              variants={{}} // necessário para framer
+              variants={{}} // necessário para repassar aos filhos
             >
               <NavItemLine
                 variants={{
                   rest: { width: 10 },
                   hover: { width: 20 },
                 }}
-                transition={{ type: "spring", stiffness: 300 }}
+                transition={{ duration: 0.3 }}
               />
               <NavItemContent
                 variants={{
                   rest: { scale: 1, color: "#8892b0" },
                   hover: { scale: 1.05, color: "#64ffda" },
                 }}
-                transition={{ type: "spring", stiffness: 300 }}
+                transition={{ duration: 0.3 }}
               >
                 {item.label}
               </NavItemContent>
