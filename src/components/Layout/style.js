@@ -24,6 +24,7 @@ export const ContentWrapper = styled.div`
   flex: 1;
   display: flex;
   justify-content: center;
+ 
 `;
 
 export const Content = styled.main`
@@ -31,10 +32,15 @@ export const Content = styled.main`
   max-width: 1200px;
   padding: 2rem 0;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+ 
 
 
   @media (max-width: 1200px){
     padding:2rem;
+    gap: 6rem;
   }
 
 
