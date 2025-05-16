@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const SobreContainer = styled.section`
-  max-width: 900px;
-  margin: 0 auto;
+
   display: flex;
   flex-direction: column;
 
