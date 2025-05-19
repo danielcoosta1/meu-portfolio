@@ -8,8 +8,9 @@ import {
   Periodo,
   Tarefa,
   SkillsWrapper,
-  SkillTag
+  SkillTag,
 } from "./style";
+
 import experiencias from "../../mocks/experiencias";
 
 export default function Experiencia() {
@@ -20,7 +21,9 @@ export default function Experiencia() {
         {experiencias.map((item, index) => (
           <Card key={index}>
             <Cargo>{item.cargo}</Cargo>
-            <Empresa>{item.empresa} — <Periodo>{item.periodo}</Periodo></Empresa>
+            <Empresa>
+              {item.empresa} — <Periodo>{item.periodo}</Periodo>
+            </Empresa>
             <ul>
               {item.responsabilidades.map((res, i) => (
                 <Tarefa key={i}>{res}</Tarefa>
