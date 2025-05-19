@@ -10,12 +10,16 @@ import {
   Imagem,
   WrapperImagem,
   LinkEstilizado,
+  AnoProjeto,
 } from "./style";
 
 import { GoLinkExternal } from "react-icons/go";
 import { FaGithub } from "react-icons/fa";
 
-export default function ListaDeProjetos({ apenasDestaques = false }) {
+export default function ListaDeProjetos({
+  apenasDestaques = false,
+  mostrarAno = false,
+}) {
   const [projetos, setProjetos] = useState([]);
 
   useEffect(() => {
@@ -34,12 +38,17 @@ export default function ListaDeProjetos({ apenasDestaques = false }) {
     <Lista>
       {projetos.map((projeto, index) => (
         <Projeto key={index}>
-          <WrapperImagem>
-            <Imagem
-              src={projeto.imagem}
-              alt={`Thumb do projeto ${projeto.nome}`}
-            />
-          </WrapperImagem>
+          {mostrarAno && <AnoProjeto>{projeto.ano}</AnoProjeto>}
+
+          {!mostrarAno && (
+            <WrapperImagem>
+              <Imagem
+                src={projeto.imagem}
+                alt={`Thumb do projeto ${projeto.nome}`}
+              />
+            </WrapperImagem>
+          )}
+
           <div>
             <Nome>{projeto.nome}</Nome>
             <Descricao>{projeto.descricao}</Descricao>

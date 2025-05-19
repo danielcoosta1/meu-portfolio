@@ -78,8 +78,19 @@ export const Projeto = styled.div`
     box-shadow: 0 0 10px rgba(100, 255, 218, 0.3),
       0 0 20px rgba(100, 255, 218, 0.2), 0 0 30px rgba(100, 255, 218, 0.1);
   }
+`;
+export const AnoProjeto = styled.div`
+  color: #64ffda;
+  font-family: "Fira Code", monospace;
+  font-size: 1.25rem;
+  padding: 0.25rem 0.5rem;
 
- 
+  border-radius: 4px;
+  opacity: 0.8;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
 `;
 
 export const WrapperImagem = styled.div`
@@ -87,7 +98,6 @@ export const WrapperImagem = styled.div`
   flex-shrink: 0;
 
   @media (max-width: 768px) {
-   
     width: 100%;
     max-width: 150px; /* <- Limita a largura da imagem em mobile */
   }

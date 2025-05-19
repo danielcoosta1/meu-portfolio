@@ -7,7 +7,7 @@ export default function PaginaProjetos() {
     <Container>
       <VoltarHome />
       <Titulo>Todos os Projetos</Titulo>
-      <ListaDeProjetos />
+      <ListaDeProjetos mostrarAno />
     </Container>
   );
 }
