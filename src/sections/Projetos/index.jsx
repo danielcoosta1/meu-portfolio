@@ -8,7 +8,7 @@ export default function Projetos() {
 
   return (
     <Container id="projetos">
-      <Titulo>Projetos em destaque</Titulo>
+      <Titulo>Projetos</Titulo>
       <ListaDeProjetos apenasDestaques />
       <BotaoTodos onClick={() => navigate("/projetos")}>
         Ver todos os projetos <GoLinkExternal size={16} />
