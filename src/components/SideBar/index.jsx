@@ -48,7 +48,9 @@ function Sidebar() {
       <div>
         <Name>Daniel Costa</Name>
         <SubtitleDestaque>Desenvolvedor Front-End</SubtitleDestaque>
-        <Subtitle>Focado em experiências web intuitivas e responsivas.</Subtitle>
+        <Subtitle>
+          Focado em experiências web intuitivas e responsivas.
+        </Subtitle>
         <NavList>
           {navItems.map((item, index) => {
             const isActive = activeSection === item.href.slice(1);
@@ -56,7 +58,12 @@ function Sidebar() {
             return (
               <NavItem
                 key={item.href}
-                href={item.href}
+                onClick={() => {
+                  const section = document.querySelector(item.href);
+                  if (section) {
+                    section.scrollIntoView({ behavior: "smooth" });
+                  }
+                }}
                 initial="rest"
                 animate={isActive ? "active" : "rest"}
                 whileHover="hover"

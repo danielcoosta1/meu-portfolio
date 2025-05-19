@@ -6,7 +6,7 @@ export const SidebarContainer = styled.aside`
   top: 0;
   left: 50%;
   transform: translateX(-800px);
-  width: 450px;
+  width: 550px;
   height: 100vh;
   padding: 3rem;
   background-color: #0a192f;
@@ -37,6 +37,7 @@ export const Name = styled.h1`
 `;
 
 export const Subtitle = styled.p`
+  width: 80%;
   font-size: 1.25rem;
   color: #8892b0;
   @media (max-width: 768px) {
@@ -59,13 +60,13 @@ export const NavList = styled.nav`
   }
 `;
 
-export const NavItem = styled(motion.a)`
+export const NavItem = styled(motion.button)`
+  all: unset; // remove estilos padrão de botão
+  cursor: pointer;
   display: flex;
   align-items: center;
-  text-decoration: none;
-  color: inherit;
   gap: 1rem;
-  cursor: pointer;
+  text-transform: uppercase;
 `;
 
 export const NavItemLine = styled(motion.div)`

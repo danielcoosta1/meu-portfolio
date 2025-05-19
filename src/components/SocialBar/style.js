@@ -24,7 +24,7 @@ export const Container = styled.div`
     margin-bottom: 0.3rem;
   }
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1400px) {
     position: relative;
     left: 0;
     flex-direction: row;
@@ -70,7 +70,7 @@ export const LineH = styled.div`
   margin-top: 1rem;
   transition: height 0.3s ease;
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1400px) {
     display: none;
   }
 
@@ -87,7 +87,7 @@ export const LineV = styled.div`
   display: none;
   transition: width 0.3s ease;
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1400px) {
     display: inline-block;
   }
 
