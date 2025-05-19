@@ -7,9 +7,13 @@ import {
   Tecnologias,
   Tag,
   Links,
-  Botao,
   Imagem,
+  WrapperImagem,
+  LinkEstilizado,
 } from "./style";
+
+import { GoLinkExternal } from "react-icons/go";
+import { FaGithub } from "react-icons/fa";
 
 export default function ListaDeProjetos({ apenasDestaques = false }) {
   const [projetos, setProjetos] = useState([]);
@@ -30,31 +34,46 @@ export default function ListaDeProjetos({ apenasDestaques = false }) {
     <Lista>
       {projetos.map((projeto, index) => (
         <Projeto key={index}>
-          <Imagem
-            src={projeto.imagem}
-            alt={`Thumb do projeto ${projeto.nome}`}
-          />
-          <Nome>{projeto.nome}</Nome>
-          <Descricao>{projeto.descricao}</Descricao>
-          <Tecnologias>
-            {projeto.tecnologias.map((tec, i) => (
-              <Tag key={i}>{tec}</Tag>
-            ))}
-          </Tecnologias>
-          <Links>
-            {projeto.link ? (
-              <Botao href={projeto.link} target="_blank" rel="noreferrer">
-                Ver projeto
-              </Botao>
-            ) : (
-              <Botao as="span" style={{ opacity: 0.6 }}>
-                Deploy em breve
-              </Botao>
-            )}
-            <Botao href={projeto.repositorio} target="_blank" rel="noreferrer">
-              GitHub
-            </Botao>
-          </Links>
+          <WrapperImagem>
+            <Imagem
+              src={projeto.imagem}
+              alt={`Thumb do projeto ${projeto.nome}`}
+            />
+          </WrapperImagem>
+          <div>
+            <Nome>{projeto.nome}</Nome>
+            <Descricao>{projeto.descricao}</Descricao>
+            <Tecnologias>
+              {projeto.tecnologias.map((tec, i) => (
+                <Tag key={i}>{tec}</Tag>
+              ))}
+            </Tecnologias>
+            <Links>
+              {projeto.link ? (
+                <LinkEstilizado
+                  href={projeto.link}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Ver projeto <GoLinkExternal size={16} />
+                </LinkEstilizado>
+              ) : (
+                <LinkEstilizado
+                  as="span"
+                  style={{ opacity: 0.6, cursor: "default" }}
+                >
+                  Deploy em breve
+                </LinkEstilizado>
+              )}
+              <LinkEstilizado
+                href={projeto.repositorio}
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub <FaGithub size={16} />
+              </LinkEstilizado>
+            </Links>
+          </div>
         </Projeto>
       ))}
     </Lista>
