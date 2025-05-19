@@ -15,25 +15,37 @@ export const Titulo = styled.h2`
 `;
 
 export const BotaoTodos = styled.button`
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+
   margin-top: 2rem;
-  background-color: transparent;
-  color: #64ffda;
-  border: 1px solid #64ffda;
   padding: 0.75rem 1.5rem;
+  background: transparent;
+  border: none;
   border-radius: 0.25rem;
-  cursor: pointer;
+  color: #999;
   font-family: "Fira Code", monospace;
-  font-size: 0.95rem;
+  font-size: 1.25rem;
+  cursor: pointer;
   transition: all 0.3s ease;
+  position: relative;
+
+  svg {
+    transition: transform 0.3s ease, scale 0.3s ease;
+  }
 
   &:hover {
     background-color: rgba(100, 255, 218, 0.1);
-    transform: translateY(-2px);
-    box-shadow: 0 0 10px rgba(100, 255, 218, 0.3);
+    color: #64ffda;
+
+    svg {
+      transform: translateX(4px) scale(1.2);
+    }
   }
 
   @media (max-width: 768px) {
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     padding: 0.6rem 1.2rem;
   }
 `;
