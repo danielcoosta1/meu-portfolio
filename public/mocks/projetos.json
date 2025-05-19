@@ -1,8 +1,14 @@
 [
   {
     "nome": "CodeConnect",
-    "descricao": "Rede social para desenvolvedores com criação de perfil, feed, favoritos e visualização de posts.",
-    "tecnologias": ["React", "Vite", "ContextAPI", "Styled-components", "React Router"],
+    "descricao": "Rede social para desenvolvedores com criação de perfil, feed, publicação e visualização de posts, comentários etc.",
+    "tecnologias": [
+      "React",
+      "Vite",
+      "ContextAPI",
+      "Styled-components",
+      "React Router"
+    ],
     "imagem": "/imagens/codeconnect-thumb.png",
     "link": "#",
     "repositorio": "https://github.com/danielcoosta1/2codeconnect",
@@ -10,38 +16,45 @@
   },
   {
     "nome": "Meteora",
-    "descricao": "E-commerce fictício de moda com carrossel, categorias, carrinho e checkout. Deploy com Vercel.",
+    "descricao": "Meteora é uma aplicação de e-commerce de moda que permite visualizar produtos, aplicar múltiplos filtros (como categoria, termo de busca, faixa de preço, gênero, entre outros), adicionar itens ao carrinho e aos favoritos, além de ampliar imagens dos produtos.",
     "tecnologias": ["React", "Vite", "ContextAPI", "Styled-components"],
     "imagem": "/imagens/meteora-thumb.png",
     "link": "https://meteora-git-main-danielcoosta1s-projects.vercel.app",
-    "repositorio": "https://github.com/danielcoosta1/meteora",
+    "repositorio": "https://github.com/danielcoosta1/Meteora",
     "destaque": true
   },
   {
-    "nome": "API de Usuários",
-    "descricao": "Backend com autenticação JWT, cadastro e listagem de usuários. Base para aplicações full stack.",
-    "tecnologias": ["Node.js", "Express", "MongoDB"],
-    "imagem": "/imagens/api-thumb.png",
+    "nome": "Cadastro de Usuários",
+    "descricao": "Projeto fictício de cadastro e listagem de usuários.",
+    "tecnologias": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "imagem": "/imagens/cadastro-thumb.png",
     "link": "#",
-    "repositorio": "https://github.com/danielcoosta1/api-usuarios",
-    "destaque": true
+    "repositorio": "https://github.com/danielcoosta1/cadastro-usuario",
+    "destaque": false
   },
   {
-    "nome": "Lista de Tarefas",
-    "descricao": "Aplicação simples para adicionar, remover e marcar tarefas como concluídas.",
-    "tecnologias": ["React", "JavaScript", "CSS"],
-    "imagem": "/imagens/todo-thumb.png",
+    "nome": "Lista de Compras",
+    "descricao": "Aplicação simples para adicionar, remover e marcar como concluídas a lista de compras do usuário",
+    "tecnologias": ["HTML", "JavaScript", "CSS"],
+    "imagem": "/imagens/lista-thumb.png",
     "link": "#",
-    "repositorio": "https://github.com/danielcoosta1/lista-de-tarefas",
-    "destaque": true
+    "repositorio": "https://github.com/danielcoosta1/lista-compras",
+    "destaque": false
   },
   {
-    "nome": "Pokedéx",
-    "descricao": "Consome a PokéAPI para exibir pokémons e suas informações em cards dinâmicos.",
-    "tecnologias": ["React", "Axios", "API REST", "CSS"],
-    "imagem": "/imagens/pokedex-thumb.png",
+    "nome": "Organo",
+    "descricao": "Uma aplicação React para gerenciar times e colaboradores de forma dinâmica, com personalização de cores e funcionalidades interativas.",
+    "tecnologias": ["React", "Vite", "Styled-components"],
+    "imagem": "/imagens/organo-thumb.png",
     "link": "#",
-    "repositorio": "https://github.com/danielcoosta1/pokedex",
+    "repositorio": "https://github.com/danielcoosta1/organo",
     "destaque": false
   }
 ]
