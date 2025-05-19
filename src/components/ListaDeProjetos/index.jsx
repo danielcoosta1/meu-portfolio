@@ -58,7 +58,7 @@ export default function ListaDeProjetos({
               ))}
             </Tecnologias>
             <Links>
-              {projeto.link ? (
+              {projeto.link && projeto.link !== "#" ? (
                 <LinkEstilizado
                   href={projeto.link}
                   target="_blank"
@@ -67,13 +67,11 @@ export default function ListaDeProjetos({
                   Ver projeto <GoLinkExternal size={16} />
                 </LinkEstilizado>
               ) : (
-                <LinkEstilizado
-                  as="span"
-                  style={{ opacity: 0.6, cursor: "default" }}
-                >
+                <LinkEstilizado as="span" $desabilitado>
                   Deploy em breve
                 </LinkEstilizado>
               )}
+
               <LinkEstilizado
                 href={projeto.repositorio}
                 target="_blank"

@@ -143,4 +143,23 @@ export const LinkEstilizado = styled.a`
       transform: translateX(4px) scale(1.2);
     }
   }
+
+  /* ESTILOS QUANDO DESABILITADO */
+  ${(props) =>
+    props.$desabilitado &&
+    `
+    color: #555;
+    cursor: default;
+    pointer-events: none;
+    background-color: transparent;
+
+    &:hover {
+      background-color: transparent;
+      color: #555;
+      
+      svg {
+        transform: none;
+      }
+    }
+  `}
 `;
