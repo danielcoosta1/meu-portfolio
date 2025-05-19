@@ -1,10 +1,17 @@
-const Projetos = () => {
-  return (
-    <section id="projetos" style={{ height: "100vh", padding: "2rem" }}>
-      <h1>Projetos</h1>
-      <p>Alguns dos meus projetos...</p>
-    </section>
-  );
-};
+import ListaDeProjetos from "../../components/ListaDeProjetos";
+import { Container, Titulo, BotaoTodos } from "./style";
+import { useNavigate } from "react-router-dom";
 
-export default Projetos;
+export default function Projetos() {
+  const navigate = useNavigate();
+
+  return (
+    <Container id="projetos">
+      <Titulo>Projetos em destaque</Titulo>
+      <ListaDeProjetos apenasDestaques />
+      <BotaoTodos onClick={() => navigate("/projetos")}>
+        Ver todos os projetos
+      </BotaoTodos>
+    </Container>
+  );
+}
