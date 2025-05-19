@@ -12,7 +12,8 @@
     "imagem": "/imagens/codeconnect-thumb.png",
     "link": "#",
     "repositorio": "https://github.com/danielcoosta1/2codeconnect",
-    "destaque": true
+    "destaque": true,
+     "ano": 2025
   },
   {
     "nome": "Meteora",
@@ -21,7 +22,8 @@
     "imagem": "/imagens/meteora-thumb.png",
     "link": "https://meteora-git-main-danielcoosta1s-projects.vercel.app",
     "repositorio": "https://github.com/danielcoosta1/Meteora",
-    "destaque": true
+    "destaque": true,
+     "ano": 2025
   },
   {
     "nome": "Cadastro de Usuários",
@@ -37,7 +39,8 @@
     "imagem": "/imagens/cadastro-thumb.png",
     "link": "#",
     "repositorio": "https://github.com/danielcoosta1/cadastro-usuario",
-    "destaque": false
+    "destaque": false,
+     "ano": 2025
   },
   {
     "nome": "Lista de Compras",
@@ -46,7 +49,8 @@
     "imagem": "/imagens/lista-thumb.png",
     "link": "#",
     "repositorio": "https://github.com/danielcoosta1/lista-compras",
-    "destaque": false
+    "destaque": false,
+     "ano": 2025
   },
   {
     "nome": "Organo",
@@ -55,6 +59,7 @@
     "imagem": "/imagens/organo-thumb.png",
     "link": "#",
     "repositorio": "https://github.com/danielcoosta1/organo",
-    "destaque": false
+    "destaque": false,
+     "ano": 2025
   }
 ]
