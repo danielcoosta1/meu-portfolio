@@ -13,7 +13,7 @@
     "link": "#",
     "repositorio": "https://github.com/danielcoosta1/2codeconnect",
     "destaque": true,
-     "ano": 2025
+    "ano": 2025
   },
   {
     "nome": "Meteora",
@@ -23,7 +23,28 @@
     "link": "https://meteora-git-main-danielcoosta1s-projects.vercel.app",
     "repositorio": "https://github.com/danielcoosta1/Meteora",
     "destaque": true,
-     "ano": 2025
+    "ano": 2025
+  },
+
+  {
+    "nome": "Organo",
+    "descricao": "Uma aplicação React para gerenciar times e colaboradores de forma dinâmica, com personalização de cores e funcionalidades interativas.",
+    "tecnologias": ["React", "Vite", "Styled-components"],
+    "imagem": null,
+    "link": "https://organo-ashy-three.vercel.app/",
+    "repositorio": "https://github.com/danielcoosta1/organo",
+    "destaque": false,
+    "ano": 2025
+  },
+  {
+    "nome": "SpaceApp",
+    "descricao": "Uma galeria interativa de fotos do espaço com sistema de filtros e favoritos, desenvolvida com React.",
+    "tecnologias": ["React", "Vite", "Styled-components"],
+    "imagem": null,
+    "link": "https://space-app-henna.vercel.app/",
+    "repositorio": "https://github.com/danielcoosta1/Space-app",
+    "destaque": false,
+    "ano": 2025
   },
   {
     "nome": "Cadastro de Usuários",
@@ -32,34 +53,33 @@
       "Node.js",
       "Express",
       "MongoDB",
-      "JavaScript",
-      "HTML",
-      "CSS"
+      "React",
+      "Styled-components"
     ],
-    "imagem": "/imagens/cadastro-thumb.png",
+    "imagem": null,
     "link": "#",
     "repositorio": "https://github.com/danielcoosta1/cadastro-usuario",
     "destaque": false,
-     "ano": 2025
+    "ano": 2025
   },
   {
     "nome": "Lista de Compras",
     "descricao": "Aplicação simples para adicionar, remover e marcar como concluídas a lista de compras do usuário",
     "tecnologias": ["HTML", "JavaScript", "CSS"],
-    "imagem": "/imagens/lista-thumb.png",
+    "imagem": null,
     "link": "#",
     "repositorio": "https://github.com/danielcoosta1/lista-compras",
     "destaque": false,
-     "ano": 2025
+    "ano": 2025
   },
   {
-    "nome": "Organo",
-    "descricao": "Uma aplicação React para gerenciar times e colaboradores de forma dinâmica, com personalização de cores e funcionalidades interativas.",
-    "tecnologias": ["React", "Vite", "Styled-components"],
-    "imagem": "/imagens/organo-thumb.png",
-    "link": "#",
-    "repositorio": "https://github.com/danielcoosta1/organo",
+    "nome": "Conversor de Moedas",
+    "descricao": "Aplicação simples para converter REAL(R$) em outras moedas(EUR, USD, BITCOIN,ETC)",
+    "tecnologias": ["HTML", "JavaScript", "CSS"],
+    "imagem": null,
+    "link": "https://conversor-moedas-virid.vercel.app/",
+    "repositorio": "https://github.com/danielcoosta1/conversor-moedas",
     "destaque": false,
-     "ano": 2025
+    "ano": 2025
   }
 ]
