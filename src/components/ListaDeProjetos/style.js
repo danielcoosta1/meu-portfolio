@@ -78,6 +78,10 @@ export const Projeto = styled.div`
     box-shadow: 0 0 10px rgba(100, 255, 218, 0.3),
       0 0 20px rgba(100, 255, 218, 0.2), 0 0 30px rgba(100, 255, 218, 0.1);
   }
+
+   @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 export const AnoProjeto = styled.div`
   color: #64ffda;
