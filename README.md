@@ -8,7 +8,7 @@ Este é meu portfólio pessoal, desenvolvida para mostrar de uma forma simples, 
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Core:**
+- **Core**
   ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white&style=flat)
   ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)
 
