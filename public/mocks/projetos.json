@@ -67,7 +67,7 @@
     "descricao": "Aplicação simples para adicionar, remover e marcar como concluídas a lista de compras do usuário",
     "tecnologias": ["HTML", "JavaScript", "CSS"],
     "imagem": null,
-    "link": "#",
+    "link": "https://lista-compras-nu.vercel.app/",
     "repositorio": "https://github.com/danielcoosta1/lista-compras",
     "destaque": false,
     "ano": 2025
