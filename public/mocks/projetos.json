@@ -20,7 +20,7 @@
     "descricao": "Meteora é uma aplicação de e-commerce de moda que permite visualizar produtos, aplicar múltiplos filtros (como categoria, termo de busca, faixa de preço, gênero, entre outros), adicionar itens ao carrinho e aos favoritos, além de ampliar imagens dos produtos.",
     "tecnologias": ["React", "Vite", "ContextAPI", "Styled-components"],
     "imagem": "/imagens/meteora-thumb.png",
-    "link": "https://meteora-git-main-danielcoosta1s-projects.vercel.app",
+    "link": "https://meteora-rust-beta.vercel.app/",
     "repositorio": "https://github.com/danielcoosta1/Meteora",
     "destaque": true,
     "ano": 2025
