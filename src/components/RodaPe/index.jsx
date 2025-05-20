@@ -4,11 +4,11 @@ const RodaPe = () => {
   return (
     <Container>
       <Texto>
-        Projetado no{" "}
+        Design projetado no{" "}
         <LinkDestaque href="https://www.figma.com/" target="_blank" rel="noopener noreferrer">
           Figma
         </LinkDestaque>{" "}
-        e desenvolvido no{" "}
+        e código desenvolvido no{" "}
         <LinkDestaque href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">
           Visual Studio Code
         </LinkDestaque>
@@ -20,7 +20,7 @@ const RodaPe = () => {
         <LinkDestaque href="https://styled-components.com/" target="_blank" rel="noopener noreferrer">
           Styled-Components
         </LinkDestaque>
-        , implantado via{" "}
+        , deploy via{" "}
         <LinkDestaque href="https://vercel.com/" target="_blank" rel="noopener noreferrer">
           Vercel
         </LinkDestaque>
