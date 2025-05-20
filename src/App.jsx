@@ -5,6 +5,7 @@ import Sobre from "./sections/Sobre";
 import Experiencia from "./sections/Experiencia";
 import Projetos from "./sections/Projetos";
 import PaginaProjetos from "./pages/Projetos";
+import RodaPe from "./components/RodaPe";
 function App() {
   return (
     <Router>
@@ -16,6 +17,7 @@ function App() {
               <Sobre />
               <Experiencia />
               <Projetos />
+              <RodaPe />
             </Layout>
           }
         />

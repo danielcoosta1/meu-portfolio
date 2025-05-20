@@ -40,7 +40,7 @@ export const Content = styled.main`
 
   @media (max-width: 1200px){
     padding:2rem;
-    gap: 6rem;
+    gap: 4rem;
   }
 
 
