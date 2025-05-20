@@ -6,13 +6,11 @@ Este é meu portfólio pessoal, desenvolvida para mostrar de uma forma simples, 
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+## 🛠️ Tecnologias Utilizadas
 
-- [ReactJS](https://reactjs.org/)
-- [Styled-Components](https://styled-components.com/)
-- [React Router](https://reactrouter.com/)
-- [Vite](https://vitejs.dev/)
-- [Vercel](https://vercel.com/)
-- [Figma](https://figma.com) (para o design visual)
+- **Core:**
+  ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white&style=flat)
+  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)
 
----
+- **UI**
+  ![Styled Components](https://img.shields.io/badge/Styled_Components-DB7093?logo=styled-components&logoColor=white&style=flat)
