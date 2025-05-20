@@ -1,10 +1,8 @@
 import styled from "styled-components";
 
 export const SobreContainer = styled.section`
-
   display: flex;
   flex-direction: column;
-
 `;
 
 export const Titulo = styled.h2`
@@ -12,11 +10,9 @@ export const Titulo = styled.h2`
   color: #64ffda;
   font-weight: bold;
 
-   @media (max-width: 768px) {
+  @media (max-width: 768px) {
     font-size: 1.5rem;
   }
-
-
 `;
 
 export const Texto = styled.p`
@@ -24,8 +20,8 @@ export const Texto = styled.p`
   line-height: 1.8;
   color: #ccd6f6;
 
-   @media (max-width: 768px) {
-    font-size:.9rem;
+  @media (max-width: 768px) {
+    font-size: 0.9rem;
   }
 `;
 
