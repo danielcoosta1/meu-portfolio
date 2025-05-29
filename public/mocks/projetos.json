@@ -81,7 +81,7 @@
     "repositorio": "https://github.com/danielcoosta1/cozinhadavovo",
     "destaque": false,
     "ano": 2025
-  }
+  },
   {
     "nome": "Conversor de Moedas",
     "descricao": "Aplicação simples para converter REAL(R$) em outras moedas(EUR, USD, BITCOIN,ETC)",
