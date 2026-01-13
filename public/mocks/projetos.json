@@ -11,7 +11,7 @@
     ],
     "imagem": "/imagens/codeconnect-thumb.png",
     "link": "#",
-    "repositorio": "https://github.com/danielcoosta1/2codeconnect",
+    "repositorio": "https://github.com/danielcoosta1/CodeConnect",
     "destaque": true,
     "ano": 2025
   },
@@ -72,7 +72,7 @@
     "destaque": false,
     "ano": 2025
   },
-    {
+  {
     "nome": "Receitas da vovó",
     "descricao": "Lista de receitas. Projeto de conclusão de uma disciplina do P1 da faculdade - Desenvolvimento Web(HTML/CSS/JS puro).",
     "tecnologias": ["HTML", "JavaScript", "CSS"],
