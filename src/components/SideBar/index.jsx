@@ -33,7 +33,7 @@ function Sidebar() {
       },
       {
         threshold: 0.6, // quando 60% da seção estiver visível
-      }
+      },
     );
 
     sections.forEach((section) => observer.observe(section));
@@ -47,9 +47,10 @@ function Sidebar() {
     <SidebarContainer>
       <div>
         <Name>Daniel Costa</Name>
-        <SubtitleDestaque>Desenvolvedor Front-End</SubtitleDestaque>
+        <SubtitleDestaque>Desenvolvedor Full Stack</SubtitleDestaque>
         <Subtitle>
-          Focado em experiências web intuitivas e responsivas.
+          Orientado a resultados, focando em código limpo e
+          escalabilidade.
         </Subtitle>
         <NavList>
           {navItems.map((item, index) => {

@@ -5,25 +5,15 @@ const Sobre = () => {
     <SobreContainer id="sobre">
       <Titulo>Sobre mim</Titulo>
       <Texto>
-        Olá! Sou um desenvolvedor front-end em transição de carreira, com uma
-        base sólida em Engenharia Elétrica e experiência no setor de energia
-        solar. Hoje, aplico minha visão estratégica e habilidades de liderança
-        no desenvolvimento de soluções web modernas, funcionais e centradas no
-        usuário.
-      </Texto>
-
-      <Texto>
-        Atualmente, utilizo <Destaque>HTML</Destaque>, <Destaque>CSS</Destaque>,{" "}
-        <Destaque>JavaScript</Destaque>, <Destaque>TypeScript</Destaque>,{" "}
-        <Destaque>ReactJS</Destaque> e <Destaque>Node.js</Destaque> para
-        construir aplicações responsivas, com atenção especial à usabilidade e
-        boas práticas de código.
-      </Texto>
-
-      <Texto>
-        Busco oportunidades para colaborar com times de tecnologia e contribuir
-        com soluções criativas que unam performance, acessibilidade e uma
-        excelente experiência para o usuário.
+        Sou um{" "}
+        <Destaque>
+          Desenvolvedor Full Stack em formação (Ciência da Computação)
+        </Destaque>{" "}
+        com foco no ecossistema JavaScript (<Destaque>React.js</Destaque>,{" "}
+        <Destaque>Node.js</Destaque>, <Destaque>Express</Destaque>). Utilizo a
+        base lógica da <Destaque>Engenharia</Destaque> para projetar
+        arquiteturas seguras e escaláveis com <Destaque>Prisma</Destaque> e{" "}
+        <Destaque>MongoDB</Destaque>.
       </Texto>
     </SobreContainer>
   );

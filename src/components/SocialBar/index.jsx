@@ -36,22 +36,6 @@ function SocialBar() {
         <FaLinkedin className="icon" />
       </SocialLink>
 
-      <SocialLink
-        href="https://instagram.com/dcc.daniel"
-        target="_blank"
-        rel="noopener noreferrer"
-        whileHover="hover"
-        initial="rest"
-        animate="rest"
-        variants={{
-          rest: { scale: 1, color: "#8892b0" },
-          hover: { scale: 1.2, color: "#64ffda" },
-        }}
-        transition={{ type: "spring", stiffness: 300 }}
-      >
-        <FaInstagram className="icon" />
-      </SocialLink>
-
       <LineH className="line-vertical" />
       <LineV className="line-horizontal" />
     </Container>
